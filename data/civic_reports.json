@@ -1,0 +1,662 @@
+[
+  {
+    "id": "CVL-2026-3377",
+    "title": "Severe sewage water overflow on sidewalk",
+    "description": "Foul-smelling wastewater bubbling up from storm drain on Pine Street in front of daycare. High health hazard for walking children.",
+    "category": "Drainage / Flooding",
+    "location": "310 Pine Street, near Bright Horizon Daycare",
+    "coordinates": {
+      "latitude": 37.773,
+      "longitude": -122.42
+    },
+    "status": "In Progress",
+    "createdAt": "2026-10-23T07:46:32.304Z",
+    "updatedAt": "2026-10-23T08:10:50.501Z",
+    "submittedBy": {
+      "id": "usr_citizen_1",
+      "name": "Elena Ramos",
+      "email": "citizen@civiclens.gov"
+    },
+    "assignedDepartment": "Drainage & Flood Control",
+    "priorityScore": 90,
+    "priorityOverridden": true,
+    "aiAnalysis": {
+      "summary": "Rule-Engine evaluated issue regarding drainage / flooding at 310 Pine Street, near Bright Horizon Daycare. Assessed priority score of 88/100 based on safety impact and severity indicators.",
+      "predictedCategory": "Drainage / Flooding",
+      "severity": "Critical",
+      "safetyRisks": [
+        "Active danger to pedestrians and vehicular traffic in immediate vicinity",
+        "High likelihood of acute property damage or physical injury if left unaddressed"
+      ],
+      "urgency": "Critical",
+      "urgencyReasons": "Identified risk factors: safety impact (33/35) and infrastructure damage potential (23/25).",
+      "priorityScore": 88,
+      "scoreFactors": {
+        "safetyImpact": 33,
+        "infrastructureDamage": 23,
+        "affectedPopulationRisk": 24,
+        "ageFactor": 8,
+        "rationale": "Computed transparently from safety parameters (safety: 33/35, damage: 23/25, population risk: 24/25, recency: 8/15)."
+      },
+      "recommendedDepartment": "Waste Management",
+      "recommendedActions": [
+        "Dispatch municipal collection team with hydraulic compacting truck",
+        "Sanitize and pressure-wash collection area to deter pests",
+        "Evaluate placement of additional heavy-duty secure bins"
+      ],
+      "estimatedResponseTimeframe": "Estimated 24 hours",
+      "confidenceScore": 0.82,
+      "missingInformation": [],
+      "source": "rule-engine-fallback",
+      "analyzedAt": "2026-10-23T07:46:39.291Z"
+    },
+    "duplicateMatches": [],
+    "auditHistory": [
+      {
+        "id": "aud_1792741599291_1",
+        "timestamp": "2026-10-23T07:46:32.304Z",
+        "actor": "Elena Ramos",
+        "actorRole": "citizen",
+        "action": "Report Submitted",
+        "details": "Issue filed in category \"Drainage / Flooding\" at \"310 Pine Street, near Bright Horizon Daycare\"."
+      },
+      {
+        "id": "aud_1792741599291_2",
+        "timestamp": "2026-10-23T07:46:32.304Z",
+        "actor": "CivicLens Rules Engine",
+        "actorRole": "system",
+        "action": "AI Triage Completed",
+        "details": "Computed Priority Score: 88/100 (Critical). Recommended: Waste Management."
+      },
+      {
+        "id": "aud_1792743050500_status",
+        "timestamp": "2026-10-23T08:10:50.500Z",
+        "actor": "Dir. Marcus Vance",
+        "actorRole": "admin",
+        "action": "Status Changed to In Progress",
+        "details": "Status transitioned from Submitted to In Progress."
+      },
+      {
+        "id": "aud_1792743050500_dept",
+        "timestamp": "2026-10-23T08:10:50.500Z",
+        "actor": "Dir. Marcus Vance",
+        "actorRole": "admin",
+        "action": "Department Assigned",
+        "details": "Assigned to Drainage & Flood Control."
+      },
+      {
+        "id": "aud_1792743050500_prio",
+        "timestamp": "2026-10-23T08:10:50.500Z",
+        "actor": "Dir. Marcus Vance",
+        "actorRole": "admin",
+        "action": "Priority Overridden",
+        "details": "Priority adjusted from 88 to 90. Justification: \"Supervisor verified biohazard sewage proximity to daycare gate\"."
+      }
+    ],
+    "priorityOverrideReason": "Supervisor verified biohazard sewage proximity to daycare gate"
+  },
+  {
+    "id": "CVL-2026-1042",
+    "title": "Deep crater pothole near Oakridge Elementary School crosswalk",
+    "description": "Large pothole approximately 10 inches deep on Elm Street right before the school crossing beacon. Several cars and a school bus swerved into the opposing lane this morning to avoid it. High pedestrian school zone risk.",
+    "category": "Pothole / Damaged Road",
+    "location": "420 Elm Street, at Oakridge Elementary Crosswalk",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?auto=format&fit=crop&w=800&q=80",
+    "status": "In Progress",
+    "createdAt": "2026-10-21T08:15:00.000Z",
+    "updatedAt": "2026-10-22T10:00:00.000Z",
+    "submittedBy": {
+      "id": "usr_citizen_1",
+      "name": "Elena Ramos",
+      "email": "citizen@civiclens.gov"
+    },
+    "assignedDepartment": "Roads & Infrastructure",
+    "priorityScore": 92,
+    "priorityOverridden": false,
+    "aiAnalysis": {
+      "summary": "Severe road depression directly adjacent to an active school pedestrian crosswalk with active vehicle swerving hazards.",
+      "predictedCategory": "Pothole / Damaged Road",
+      "severity": "Critical",
+      "safetyRisks": [
+        "Vehicles swerving into oncoming traffic in an active school pedestrian zone",
+        "Direct collision risk with morning student crosswalk foot-traffic",
+        "Potential axle/tire rupture causing vehicle loss of control"
+      ],
+      "urgency": "Critical",
+      "urgencyReasons": "Proximity to elementary school crosswalk and observed vehicle swerving behaviors create immediate pedestrian collision hazard.",
+      "priorityScore": 92,
+      "scoreFactors": {
+        "safetyImpact": 35,
+        "infrastructureDamage": 22,
+        "affectedPopulationRisk": 24,
+        "ageFactor": 11,
+        "rationale": "Maximum safety hazard weighting applied due to vulnerable school population and reported erratic driver evasions."
+      },
+      "recommendedDepartment": "Roads & Infrastructure",
+      "recommendedActions": [
+        "Deploy temporary emergency reflective warning cones and reduced speed banner immediately",
+        "Dispatch rapid-patch cold mix asphalt repair unit within 4 hours",
+        "Schedule permanent mill-and-overlay joint compaction inspection"
+      ],
+      "estimatedResponseTimeframe": "Estimated 2 to 4 hours for emergency stabilization",
+      "confidenceScore": 0.96,
+      "missingInformation": [
+        "Sub-base moisture penetration extent pending physical probe"
+      ],
+      "source": "gemini-3.8-flash",
+      "analyzedAt": "2026-10-21T08:15:10.000Z"
+    },
+    "duplicateMatches": [],
+    "auditHistory": [
+      {
+        "id": "aud_1",
+        "timestamp": "2026-10-21T08:15:00.000Z",
+        "actor": "Elena Ramos",
+        "actorRole": "citizen",
+        "action": "Report Submitted",
+        "details": "Initial report submitted via web portal with image attachment."
+      },
+      {
+        "id": "aud_2",
+        "timestamp": "2026-10-21T08:15:10.000Z",
+        "actor": "CivicLens Gemini AI",
+        "actorRole": "system",
+        "action": "AI Triage Completed",
+        "details": "Calculated Priority 92/100 (Critical). Flagged urgent school zone safety risk."
+      },
+      {
+        "id": "aud_3",
+        "timestamp": "2026-10-21T09:30:00.000Z",
+        "actor": "Dir. Marcus Vance",
+        "actorRole": "admin",
+        "action": "Assigned & Dispatched",
+        "details": "Assigned to Roads & Infrastructure Rapid Patch Crew Alpha."
+      },
+      {
+        "id": "aud_4",
+        "timestamp": "2026-10-22T10:00:00.000Z",
+        "actor": "Dir. Marcus Vance",
+        "actorRole": "admin",
+        "action": "Status Updated to In Progress",
+        "details": "Crew Alpha deployed on site with asphalt heating unit."
+      }
+    ]
+  },
+  {
+    "id": "CVL-2026-1038",
+    "title": "High-pressure water main geyser spraying onto 5th Avenue roadway",
+    "description": "Cast-iron municipal water pipe burst under sidewalk near 5th Ave and Maple. Water bubbling up through sidewalk cracks and spraying 4 feet into the air. Water pooling towards basement shops.",
+    "category": "Water Leakage",
+    "location": "1280 5th Avenue, Corner of Maple Street",
+    "coordinates": {
+      "latitude": 37.7758,
+      "longitude": -122.4182
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?auto=format&fit=crop&w=800&q=80",
+    "status": "In Progress",
+    "createdAt": "2026-10-22T06:30:00.000Z",
+    "updatedAt": "2026-10-22T07:15:00.000Z",
+    "submittedBy": {
+      "id": "usr_citizen_2",
+      "name": "David Chen",
+      "email": "david.chen@example.com"
+    },
+    "assignedDepartment": "Water Supply & Sanitation",
+    "priorityScore": 94,
+    "priorityOverridden": false,
+    "aiAnalysis": {
+      "summary": "Pressurized water main rupture causing surface bubbling and active flooding risk to adjacent commercial basement properties.",
+      "predictedCategory": "Water Leakage",
+      "severity": "Critical",
+      "safetyRisks": [
+        "Subsurface cavitation and sudden sinkhole formation under sidewalk/roadway",
+        "Structural flooding of commercial basement facilities",
+        "Municipal potable water volume loss and pressure drop for fire suppression"
+      ],
+      "urgency": "Critical",
+      "urgencyReasons": "Uncontrolled pressurized water discharge risks structural foundation erosion and roadbed collapse.",
+      "priorityScore": 94,
+      "scoreFactors": {
+        "safetyImpact": 34,
+        "infrastructureDamage": 25,
+        "affectedPopulationRisk": 23,
+        "ageFactor": 12,
+        "rationale": "High volume potable loss paired with imminent sinkhole and structural foundation damage."
+      },
+      "recommendedDepartment": "Water Supply & Sanitation",
+      "recommendedActions": [
+        "Dispatch water district valve operator to isolate section gate valve",
+        "Issue temporary precautionary boil-water notice if backflow pressure drops below 20 PSI",
+        "Coordinate emergency excavation and pipe sleeve replacement"
+      ],
+      "estimatedResponseTimeframe": "Immediate emergency response within 30 to 60 minutes",
+      "confidenceScore": 0.98,
+      "missingInformation": [
+        "Pipe diameter and exact shutoff valve coordinate index"
+      ],
+      "source": "gemini-3.8-flash",
+      "analyzedAt": "2026-10-22T06:30:15.000Z"
+    },
+    "duplicateMatches": [
+      {
+        "reportId": "CVL-2026-1039",
+        "reportTitle": "Water pipe leaking badly and flooding sidewalk on 5th Ave",
+        "reportCategory": "Water Leakage",
+        "similarityScore": 88,
+        "reasons": [
+          "Same intersection (1280 5th Ave)",
+          "Proximity within 35 meters",
+          "Both describe burst water pipe and sidewalk flooding"
+        ],
+        "distanceMeters": 35,
+        "status": "confirmed"
+      }
+    ],
+    "auditHistory": [
+      {
+        "id": "aud_w1",
+        "timestamp": "2026-10-22T06:30:00.000Z",
+        "actor": "David Chen",
+        "actorRole": "citizen",
+        "action": "Report Submitted",
+        "details": "Reported with geo-coordinates."
+      },
+      {
+        "id": "aud_w2",
+        "timestamp": "2026-10-22T07:15:00.000Z",
+        "actor": "Dir. Marcus Vance",
+        "actorRole": "admin",
+        "action": "Assigned to Water Supply & Sanitation",
+        "details": "Emergency utility crew mobilized. Confirmed duplicate link to CVL-2026-1039."
+      }
+    ]
+  },
+  {
+    "id": "CVL-2026-1039",
+    "title": "Water pipe leaking badly and flooding sidewalk on 5th Ave",
+    "description": "Water gushing out from pavement right in front of Maple Bakery on 5th. Pedestrians cannot walk on the sidewalk.",
+    "category": "Water Leakage",
+    "location": "1292 5th Avenue, outside Maple Bakery",
+    "coordinates": {
+      "latitude": 37.776,
+      "longitude": -122.418
+    },
+    "status": "Under Review",
+    "createdAt": "2026-10-22T06:55:00.000Z",
+    "updatedAt": "2026-10-22T07:15:00.000Z",
+    "submittedBy": {
+      "id": "usr_citizen_3",
+      "name": "Sarah Jenkins",
+      "email": "sarah.j@example.com"
+    },
+    "assignedDepartment": "Water Supply & Sanitation",
+    "priorityScore": 90,
+    "priorityOverridden": false,
+    "aiAnalysis": {
+      "summary": "Gushing water leak causing pedestrian path blockage outside retail establishment.",
+      "predictedCategory": "Water Leakage",
+      "severity": "High",
+      "safetyRisks": [
+        "Pedestrian slip and fall hazards",
+        "Pedestrians forced into vehicular traffic lane"
+      ],
+      "urgency": "High",
+      "urgencyReasons": "Rapid water accumulation affecting public thoroughfare.",
+      "priorityScore": 90,
+      "scoreFactors": {
+        "safetyImpact": 30,
+        "infrastructureDamage": 22,
+        "affectedPopulationRisk": 24,
+        "ageFactor": 14,
+        "rationale": "Substantial pedestrian displacement combined with potential municipal pipe fracture."
+      },
+      "recommendedDepartment": "Water Supply & Sanitation",
+      "recommendedActions": [
+        "Cross-reference with master incident CVL-2026-1038 at same intersection",
+        "Confirm isolation valve dispatch status",
+        "Provide pedestrian detour barricades"
+      ],
+      "estimatedResponseTimeframe": "Estimated 1 to 2 hours",
+      "confidenceScore": 0.94,
+      "missingInformation": [
+        "Confirmed whether this is independent service line or main break"
+      ],
+      "source": "gemini-3.8-flash",
+      "analyzedAt": "2026-10-22T06:55:08.000Z"
+    },
+    "duplicateMatches": [
+      {
+        "reportId": "CVL-2026-1038",
+        "reportTitle": "High-pressure water main geyser spraying onto 5th Avenue roadway",
+        "reportCategory": "Water Leakage",
+        "similarityScore": 88,
+        "reasons": [
+          "Coinciding location on 5th Avenue",
+          "Same burst incident reported 25 minutes prior",
+          "Distance: ~35m"
+        ],
+        "distanceMeters": 35,
+        "status": "confirmed"
+      }
+    ],
+    "auditHistory": [
+      {
+        "id": "aud_dup1",
+        "timestamp": "2026-10-22T06:55:00.000Z",
+        "actor": "Sarah Jenkins",
+        "actorRole": "citizen",
+        "action": "Report Submitted",
+        "details": "Submitted from mobile phone."
+      },
+      {
+        "id": "aud_dup2",
+        "timestamp": "2026-10-22T07:15:00.000Z",
+        "actor": "Dir. Marcus Vance",
+        "actorRole": "admin",
+        "action": "Flagged as Confirmed Duplicate",
+        "details": "Linked to primary incident CVL-2026-1038. Submitter will receive synced status updates."
+      }
+    ]
+  },
+  {
+    "id": "CVL-2026-1030",
+    "title": "Illegal toxic e-waste and construction debris dump in park alleyway",
+    "description": "Over 20 discarded computer monitors, cracked lead batteries, and asbestos drywall scraps dumped along the pedestrian connector path behind Central Park. Strong chemical smell in warm afternoon sun.",
+    "category": "Garbage / Waste",
+    "location": "Rear access path, Central Park West & 9th Street",
+    "coordinates": {
+      "latitude": 37.7712,
+      "longitude": -122.4215
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=800&q=80",
+    "status": "Assigned",
+    "createdAt": "2026-10-20T14:20:00.000Z",
+    "updatedAt": "2026-10-21T09:10:00.000Z",
+    "submittedBy": {
+      "id": "usr_citizen_1",
+      "name": "Elena Ramos",
+      "email": "citizen@civiclens.gov"
+    },
+    "assignedDepartment": "Waste Management",
+    "priorityScore": 78,
+    "priorityOverridden": false,
+    "aiAnalysis": {
+      "summary": "Hazardous electronic waste and building demolition debris dumped on public pedestrian pathway with chemical vapor concerns.",
+      "predictedCategory": "Garbage / Waste",
+      "severity": "High",
+      "safetyRisks": [
+        "Lead and heavy metal leach exposure to park users and local pets",
+        "Chemical vapor inhalation in enclosed alley",
+        "Sharp glass and metal laceration hazards"
+      ],
+      "urgency": "High",
+      "urgencyReasons": "Hazardous materials in high-traffic park recreational connector require containment before rainfall leaching.",
+      "priorityScore": 78,
+      "scoreFactors": {
+        "safetyImpact": 28,
+        "infrastructureDamage": 12,
+        "affectedPopulationRisk": 26,
+        "ageFactor": 12,
+        "rationale": "Hazardous materials classification elevates priority above general municipal solid waste."
+      },
+      "recommendedDepartment": "Waste Management",
+      "recommendedActions": [
+        "Cordon off alley connector with hazmat caution barrier",
+        "Dispatch certified Environmental Protection hazmat recovery unit",
+        "Inspect security camera footage from adjacent municipal transit yard for license plates"
+      ],
+      "estimatedResponseTimeframe": "Estimated 8 to 16 hours for hazardous abatement",
+      "confidenceScore": 0.95,
+      "missingInformation": [
+        "Verified chemical composition of battery fluids"
+      ],
+      "source": "gemini-3.8-flash",
+      "analyzedAt": "2026-10-20T14:20:12.000Z"
+    },
+    "duplicateMatches": [],
+    "auditHistory": [
+      {
+        "id": "aud_g1",
+        "timestamp": "2026-10-20T14:20:00.000Z",
+        "actor": "Elena Ramos",
+        "actorRole": "citizen",
+        "action": "Report Submitted",
+        "details": "Citizen report logged with photos."
+      },
+      {
+        "id": "aud_g2",
+        "timestamp": "2026-10-21T09:10:00.000Z",
+        "actor": "Dir. Marcus Vance",
+        "actorRole": "admin",
+        "action": "Assigned to Waste Management",
+        "details": "Hazmat specialized contractor notified for scheduled haul."
+      }
+    ]
+  },
+  {
+    "id": "CVL-2026-1025",
+    "title": "Cluster of 4 dead streetlights creating pitch-black intersection",
+    "description": "Entire intersection lighting grid failed at 14th Street and Mission. Zero illumination on pedestrian crosswalks at night. Two near-miss pedestrian accidents observed yesterday evening.",
+    "category": "Broken Streetlight",
+    "location": "Intersection of 14th Street & Mission Boulevard",
+    "coordinates": {
+      "latitude": 37.7685,
+      "longitude": -122.4198
+    },
+    "status": "Resolved",
+    "createdAt": "2026-10-18T20:10:00.000Z",
+    "updatedAt": "2026-10-19T14:30:00.000Z",
+    "resolvedAt": "2026-10-19T14:30:00.000Z",
+    "submittedBy": {
+      "id": "usr_citizen_4",
+      "name": "Mateo Ortiz",
+      "email": "mateo.ortiz@example.com"
+    },
+    "assignedDepartment": "Electrical & Lighting",
+    "priorityScore": 76,
+    "priorityOverridden": false,
+    "aiAnalysis": {
+      "summary": "Multi-luminaire circuit failure causing total intersection blackout and severe pedestrian collision hazards.",
+      "predictedCategory": "Broken Streetlight",
+      "severity": "High",
+      "safetyRisks": [
+        "Zero nighttime visibility for crossing pedestrians",
+        "Increased vehicle collision probability",
+        "Public safety vulnerability"
+      ],
+      "urgency": "High",
+      "urgencyReasons": "Repeated near-miss collisions documented due to complete lighting grid collapse.",
+      "priorityScore": 76,
+      "scoreFactors": {
+        "safetyImpact": 31,
+        "infrastructureDamage": 14,
+        "affectedPopulationRisk": 22,
+        "ageFactor": 9,
+        "rationale": "Circuit-level failure affecting multiple poles simultaneously increases systemic danger."
+      },
+      "recommendedDepartment": "Electrical & Lighting",
+      "recommendedActions": [
+        "Inspect feeder breaker panel at control box 14-M",
+        "Replace burned photo-electric contactor unit",
+        "Test automated timer sensor and luminaire LED drivers"
+      ],
+      "estimatedResponseTimeframe": "Estimated 12 to 24 hours",
+      "confidenceScore": 0.97,
+      "missingInformation": [],
+      "source": "gemini-3.8-flash",
+      "analyzedAt": "2026-10-18T20:10:20.000Z"
+    },
+    "duplicateMatches": [],
+    "resolutionNotes": "Municipal electricians replaced tripped underground circuit breaker and upgraded photo-sensor relay on pole 14-M-02. All 4 LED heads confirmed operational at 14:30.",
+    "auditHistory": [
+      {
+        "id": "aud_l1",
+        "timestamp": "2026-10-18T20:10:00.000Z",
+        "actor": "Mateo Ortiz",
+        "actorRole": "citizen",
+        "action": "Report Submitted",
+        "details": "Submitted with location marker."
+      },
+      {
+        "id": "aud_l2",
+        "timestamp": "2026-10-18T21:00:00.000Z",
+        "actor": "Dir. Marcus Vance",
+        "actorRole": "admin",
+        "action": "Assigned to Electrical & Lighting",
+        "details": "Routed to night electrical service division."
+      },
+      {
+        "id": "aud_l3",
+        "timestamp": "2026-10-19T14:30:00.000Z",
+        "actor": "Dir. Marcus Vance",
+        "actorRole": "admin",
+        "action": "Marked as Resolved",
+        "details": "Breaker box replaced. Testing passed."
+      }
+    ]
+  },
+  {
+    "id": "CVL-2026-1019",
+    "title": "Severe storm drain blockage causing 8-inch road ponding",
+    "description": "Grate covered with dense fallen autumn leaves and plastic debris. Water backed up across two lanes of traffic following yesterday rain. Cars creating dangerous hydroplaning sprays.",
+    "category": "Drainage / Flooding",
+    "location": "850 South Bayview Boulevard, near Marina underpass",
+    "coordinates": {
+      "latitude": 37.7621,
+      "longitude": -122.3982
+    },
+    "status": "Resolved",
+    "createdAt": "2026-10-17T09:00:00.000Z",
+    "updatedAt": "2026-10-18T06:45:00.000Z",
+    "resolvedAt": "2026-10-18T06:45:00.000Z",
+    "submittedBy": {
+      "id": "usr_citizen_1",
+      "name": "Elena Ramos",
+      "email": "citizen@civiclens.gov"
+    },
+    "assignedDepartment": "Drainage & Flood Control",
+    "priorityScore": 72,
+    "priorityOverridden": false,
+    "aiAnalysis": {
+      "summary": "Catch-basin blockage resulting in two-lane standing flood water and vehicle hydroplaning hazards near low-elevation underpass.",
+      "predictedCategory": "Drainage / Flooding",
+      "severity": "Medium",
+      "safetyRisks": [
+        "Vehicle hydroplaning and loss of steering control",
+        "Potential flooding of underpass electrical conduit"
+      ],
+      "urgency": "Medium",
+      "urgencyReasons": "Standing water across travel lanes with approaching wet weather front.",
+      "priorityScore": 72,
+      "scoreFactors": {
+        "safetyImpact": 26,
+        "infrastructureDamage": 18,
+        "affectedPopulationRisk": 20,
+        "ageFactor": 8,
+        "rationale": "Active road lane blockage and localized flooding."
+      },
+      "recommendedDepartment": "Drainage & Flood Control",
+      "recommendedActions": [
+        "Deploy Vactor suction truck to clear grate and catch-basin sump",
+        "Jet-flush 150ft lateral storm sewer pipe connection",
+        "Clear upstream curb gutters for 50 yards to prevent re-clogging"
+      ],
+      "estimatedResponseTimeframe": "Estimated 24 hours",
+      "confidenceScore": 0.93,
+      "missingInformation": [
+        "Pipe obstruction depth"
+      ],
+      "source": "gemini-3.8-flash",
+      "analyzedAt": "2026-10-17T09:00:15.000Z"
+    },
+    "duplicateMatches": [],
+    "resolutionNotes": "Vactor Truck 3 cleared 450 lbs of organic compost and litter from catch basin. Street sweeper swept upstream curb gutters. Flow restored to 100%.",
+    "auditHistory": [
+      {
+        "id": "aud_d1",
+        "timestamp": "2026-10-17T09:00:00.000Z",
+        "actor": "Elena Ramos",
+        "actorRole": "citizen",
+        "action": "Report Submitted",
+        "details": "Reported with GPS location."
+      },
+      {
+        "id": "aud_d2",
+        "timestamp": "2026-10-18T06:45:00.000Z",
+        "actor": "Dir. Marcus Vance",
+        "actorRole": "admin",
+        "action": "Marked as Resolved",
+        "details": "Storm drain cleared by Vactor crew."
+      }
+    ]
+  },
+  {
+    "id": "CVL-2026-1012",
+    "title": "Graffiti defacing public library exterior historical mural",
+    "description": "Spray paint tags covering historic ceramic tile mural on the North exterior wall of the Carnegie Memorial Library.",
+    "category": "Other",
+    "location": "180 Civic Center Plaza, Carnegie Memorial Library",
+    "coordinates": {
+      "latitude": 37.7795,
+      "longitude": -122.4175
+    },
+    "status": "Submitted",
+    "createdAt": "2026-10-22T19:40:00.000Z",
+    "updatedAt": "2026-10-22T19:40:00.000Z",
+    "submittedBy": {
+      "id": "usr_citizen_5",
+      "name": "Nadia Solis",
+      "email": "nadia.s@example.com"
+    },
+    "assignedDepartment": "Unassigned",
+    "priorityScore": 38,
+    "priorityOverridden": false,
+    "aiAnalysis": {
+      "summary": "Vandalism on public historic civic facility exterior surfaces requiring specialized historic restoration solvent.",
+      "predictedCategory": "Other",
+      "severity": "Low",
+      "safetyRisks": [
+        "Non-hazardous cosmetic vandalism",
+        "No structural or life safety risk detected"
+      ],
+      "urgency": "Low",
+      "urgencyReasons": "Aesthetic damage without acute structural impairment or safety hazard.",
+      "priorityScore": 38,
+      "scoreFactors": {
+        "safetyImpact": 5,
+        "infrastructureDamage": 12,
+        "affectedPopulationRisk": 14,
+        "ageFactor": 7,
+        "rationale": "Cosmetic civic damage with cultural heritage sensitivity, but minimal physical safety risk."
+      },
+      "recommendedDepartment": "Public Safety & Enforcement",
+      "recommendedActions": [
+        "Dispatch heritage preservation cleaning crew with non-abrasive solvent",
+        "Document tags for municipal graffiti vandalism incident database",
+        "Apply sacrificial anti-graffiti protective silane coating"
+      ],
+      "estimatedResponseTimeframe": "Estimated 3 to 5 business days",
+      "confidenceScore": 0.91,
+      "missingInformation": [
+        "Chemical paint type (oil enamel vs acrylic)"
+      ],
+      "source": "gemini-3.8-flash",
+      "analyzedAt": "2026-10-22T19:40:15.000Z"
+    },
+    "duplicateMatches": [],
+    "auditHistory": [
+      {
+        "id": "aud_v1",
+        "timestamp": "2026-10-22T19:40:00.000Z",
+        "actor": "Nadia Solis",
+        "actorRole": "citizen",
+        "action": "Report Submitted",
+        "details": "Awaiting administrator departmental assignment."
+      }
+    ]
+  }
+]

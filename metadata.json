@@ -1,0 +1,8 @@
+{
+  "name": "CivicLens AI",
+  "description": "AI-powered civic issue management and triage platform analyzing complaints, urgency, and duplicates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
